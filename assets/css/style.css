@@ -1,0 +1,166 @@
+/* Overarching Styling */
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  color: #777777;
+  margin:0px;
+  padding:0px;
+  background-image: url(../images/seamless_paper_texture.png);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+/* Top Bar */
+header{
+  padding: 0px;
+  background: #ffffff;
+  border-bottom: 5px solid #cccccc;
+  margin-bottom: 30px;
+  height:100px;
+}
+/* Top Bar Content*/
+.navBar{
+  width: 960px;
+  margin-left: 250px;
+  margin-top: 0px;
+}
+/* Top Bar Name Box */
+#name{
+  background:#4aaaa5;
+  color: white;
+  font-size: 30px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align:center;
+  float:left;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 33px;
+  padding-bottom: 32px;
+}  
+/* Top bar Links Box */
+.navigationLinks{
+  color: #777777;
+  float:right;
+  text-align:center;
+  padding-top: 41px;
+  padding-bottom: 41px;
+}
+#aboutLink, #portfolioLink, #contactLink{
+  text-decoration: none;
+  color:#777777;
+}
+#portfolioLink{
+  border-right:2px solid #777777;
+  padding-right: 5px;
+  border-left:2px solid #777777;
+  padding-left: 5px;
+}
+/* About Me Content */
+.pageContent{
+  margin-left: 250px;
+  background-color: #ffffff;
+  border: 2px solid #cccccc;
+  width: 960px;
+  /* margin-bottom: 67px; */
+}
+/* Content Title */
+#contentTitle{
+  padding: 15px;
+  padding-left: 0;
+  margin-left: 20px;
+  margin-right:20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color:#4aaaa5;
+  font-size: 32px;
+  border-bottom: 2px solid #cccccc;
+}
+/* About Me Content Body */
+#aboutmeContent{
+  padding: 20px;
+  line-height: 150%;
+  font-size: 18px;
+}
+/* Contact Content Body */
+#contactForm{
+  padding: 20px;
+  font-size: 18px;
+  line-height: 50%;
+}
+/* Name & Email boxes */
+input{
+  width:100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+}
+/* Message Box */
+textarea{
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+
+}
+/* Submit Button */
+#contactSubmit{
+  background-color:#4aaaa5;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 5px;
+}
+/* Image float  */
+#ericSmirk{
+  float: left;
+  margin-right: 20px;
+}
+
+/* Portfolio Image Gallery */
+.galleryCard {
+  position: relative;
+  width: 250px;
+  border: 1px solid #ccc;
+  float: left;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.desc {
+  position: absolute;
+  left: 0;
+  top: 66%;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+  background-color: #4aaaa5;
+  color: #ffffff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.cardPic { 
+  width: 100%;
+  height: auto;
+}
+
+/* Spacer */
+.spacer {
+  flex: 1;
+}
+/* footer */
+footer{
+  background-color: #666666;
+  border-top: 8px solid #4aaaa5;
+  height: 50px;
+}
